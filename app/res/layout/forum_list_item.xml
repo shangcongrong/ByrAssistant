@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/app_bg"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_selector_bg"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="4dp">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@id/tv_forum_title"
+            style="@style/AdapterText"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            style="@style/AdapterCell">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_forum_author"
+                style="@style/AdapterText.Grey"/>
+
+            <TextView
+                android:id="@id/tv_forum_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AdapterText.Grey"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/AdapterCell">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_forum_content"
+                style="@style/AdapterText.Grey"/>
+
+            <TextView
+                android:id="@id/tv_forum_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AdapterText.Grey"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/AdapterCell">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_forum_publish_date"
+                style="@style/AdapterText.Grey"/>
+
+            <TextView
+                android:id="@id/tv_forum_publish_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AdapterText.Grey"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.byr.assistant"
+          android:versionCode="1"
+          android:versionName="0.1 alpha">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE"/>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_GPS"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Styled">
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.splash.GuideActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.course.CourseDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.course.AddCourseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.course.UserCourseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.event.EventActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.forum.ForumActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.note.NoteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.note.AddNoteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.setting.SettingActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@color/app_bg"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="6dp"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="2dp"
+            android:background="@color/app_color_light"
+            android:layout_height="12dp"/>
+
+        <ImageView
+            android:src="@drawable/ic_timeline"
+            android:layout_width="24dp"
+            android:scaleType="centerInside"
+            android:layout_height="24dp"/>
+
+        <View
+            android:layout_width="2dp"
+            android:background="@color/app_color_light"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/popup_selector_bg"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@id/tv_course_time"
+            style="@style/AdapterText"
+            android:text="2013-11-25 13:30 至 15:20"/>
+
+
+        <LinearLayout
+            style="@style/AdapterCell">
+
+            <TextView
+                style="@style/AdapterText.Grey"
+                android:text="@string/label_course_name"/>
+
+            <TextView
+                android:id="@id/tv_course_name"
+                style="@style/AdapterText.Grey"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/AdapterCell">
+
+            <TextView
+                style="@style/AdapterText.Grey"
+                android:text="@string/label_course_teacher"/>
+
+            <TextView
+                android:id="@id/tv_course_teacher"
+                style="@style/AdapterText.Grey"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AdapterCell">
+
+            <TextView
+                style="@style/AdapterText.Grey"
+                android:text="@string/label_course_location"/>
+
+            <TextView
+                android:id="@id/tv_course_location"
+                style="@style/AdapterText.Grey"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

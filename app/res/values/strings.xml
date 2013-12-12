@@ -1,0 +1,92 @@
+<resources>
+
+    <string name="app_name">北邮校园助手</string>
+
+    <string name="refresh">刷新</string>
+
+    <!-- home navigation list item -->
+    <string name="navigation_dashboard">首页面板</string>
+    <string name="navigation_course">我的课程表</string>
+    <string name="navigation_event">我邮活动</string>
+    <string name="navigation_forum">我邮十大</string>
+    <string name="navigation_note">我的笔记</string>
+
+    <!-- course_activity.xml -->
+    <string name="title_monday">星期一</string>
+    <string name="title_tuesday">星期二</string>
+    <string name="title_wednesday">星期三</string>
+    <string name="title_thursday">星期四</string>
+    <string name="title_friday">星期五</string>
+    <string name="title_saturday">星期六</string>
+    <string name="title_sunday">星期日</string>
+
+    <!-- note_activity.xml -->
+    <string name="title_note">笔记</string>
+    <string name="title_reminder">提醒</string>
+
+    <string name="create_course">增加课程</string>
+
+    <!-- common strings -->
+    <string name="add">增加</string>
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+
+    <!--  course_list_item.xml  -->
+    <string name="label_course_name">课程名称:</string>
+    <string name="label_course_time">授课时间:</string>
+    <string name="label_course_teacher">授课教师:</string>
+    <string name="label_course_location">授课地点:</string>
+
+    <!--  forum_list_item.xml -->
+    <string name="label_forum_title">文章主题:</string>
+    <string name="label_forum_author">作者:</string>
+    <string name="label_forum_content">内容:</string>
+    <string name="label_forum_publish_date">时间:</string>
+
+    <!-- event_list_item.xml  -->
+    <string name="label_event_name">活动主题:</string>
+    <string name="label_event_time">活动时间:</string>
+    <string name="label_event_location">活动地点:</string>
+    <string name="label_event_content">活动内容:</string>
+    <string name="label_event_department">举办单位:</string>
+
+    <!--  note_list_item.xml  -->
+    <string name="label_note_headline">笔记名称:</string>
+    <string name="label_note_edit_time">修改时间:</string>
+    <string name="label_note_content">笔记内容:</string>
+
+
+    <!--  home_activity.xml  -->
+    <string name="label_home_course_name">今日\n课程</string>
+    <string name="label_home_event_name">今日\n活动</string>
+    <string name="label_home_forum_name">十大\n头条</string>
+    <string name="label_home_note_name">笔记\n提醒</string>
+
+
+    <!---->
+    <!--<string name="label_home_course_name">今日\n课程</string>-->
+    <!--<string name="label_home_course_time">授课时间:</string>-->
+    <!--<string name="label_home_course_teacher">授课教师:</string>-->
+    <!--<string name="label_home_course_location">授课地点:</string>-->
+
+    <!--&lt;!&ndash;  home_layout_event.xml  &ndash;&gt;-->
+    <!--<string name="label_event_title">今日\n活动</string>-->
+    <!--<string name="label_event_name">活动主题:</string>-->
+    <!--<string name="label_event_time">活动时间:</string>-->
+    <!--<string name="label_event_location">活动地点:</string>-->
+    <!--<string name="label_event_department">举办单位:</string>-->
+
+    <!--&lt;!&ndash;  forum_item_item.xml  &ndash;&gt;-->
+    <!--<string name="forum_item_title">文章主题:</string>-->
+    <!--<string name="forum_item_author">发信人：</string>-->
+    <!--<string name="forum_item_content">内容：</string>-->
+    <!--<string name="forum_item_publish_date">发布时间：</string>-->
+
+    <!--&lt;!&ndash;  event_list_item.xml  &ndash;&gt;-->
+    <!--<string name="event_item_title">活动主题:</string>-->
+    <!--<string name="event_item_time">活动时间：</string>-->
+    <!--<string name="event_item_location">活动地点：</string>-->
+    <!--<string name="event_item_content">活动内容：</string>-->
+    <!--<string name="event_item_department">举办单位：</string>-->
+</resources>

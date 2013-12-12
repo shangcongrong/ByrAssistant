@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mdActiveViewPosition" type="id"/>
+
+    <item name="tv_app_name" type="id"/>
+    <item name="tv_author" type="id"/>
+
+    <item name="tv_empty_text" type="id"/>
+
+    <item name="tv_course_time" type="id"/>
+    <item name="tv_course_name" type="id"/>
+    <item name="tv_course_teacher" type="id"/>
+    <item name="tv_course_location" type="id"/>
+    <item name="tv_course_note" type="id"/>
+
+    <item name="tv_forum_title" type="id"/>
+    <item name="tv_forum_author" type="id"/>
+    <item name="tv_forum_content" type="id"/>
+    <item name="tv_forum_publish_date" type="id"/>
+
+    <item name="tv_event_name" type="id"/>
+    <item name="tv_event_time" type="id"/>
+    <item name="tv_event_location" type="id"/>
+    <item name="tv_event_department" type="id"/>
+    <item name="tv_event_content" type="id"/>
+
+    <item name="et_note_headline" type="id"/>
+    <item name="et_note_content" type="id"/>
+    <item name="tv_note_headline" type="id"/>
+    <item name="tv_note_content" type="id"/>
+    <item name="tv_note_edit_time" type="id"/>
+
+    <item name="btn_save" type="id"/>
+    <item name="btn_cancel" type="id"/>
+
+    <item name="et_reminder_content" type="id"/>
+    <item name="tv_reminder_time" type="id"/>
+
+    <item name="cb_select_course" type="id"/>
+
+</resources>

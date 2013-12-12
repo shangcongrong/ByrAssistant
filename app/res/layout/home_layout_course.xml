@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@id/tv_empty_text"
+        android:textColor="@color/app_color_light"
+        android:gravity="left"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_selector_bg"
+        android:layout_alignParentRight="true"
+        android:text="今天暂无课程哦～"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/layout_home_course"
+        style="@style/HomeLayout"
+        android:background="@drawable/popup_selector_bg">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/HomeLayoutCell">
+
+            <TextView
+                android:id="@id/tv_course_name"
+                android:text="计算机组成原理"
+                style="@style/HomeText.Sub"
+                android:layout_toLeftOf="@+id/square"/>
+
+            <TextView
+                android:id="@+id/square"
+                style="@style/HomeText.XLarge"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/home_layout_border"
+                android:layout_alignParentRight="true"
+                android:text="@string/label_home_course_name"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            style="@style/HomeLayoutCell">
+
+            <TextView
+                style="@style/HomeText.Large"
+                android:text="@string/label_course_time"/>
+
+            <TextView
+                android:id="@id/tv_course_time"
+                android:text="10:00 至 12:00"
+                style="@style/HomeText.Large"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/HomeLayoutCell">
+
+            <TextView
+                style="@style/HomeText.Large"
+                android:text="@string/label_course_location"/>
+
+            <TextView
+                android:id="@id/tv_course_location"
+                android:text="北邮本部教学楼3-333"
+                style="@style/HomeText.Large"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/HomeLayoutCell">
+
+            <TextView
+                style="@style/HomeText.Large"
+                android:text="@string/label_course_teacher"/>
+
+            <TextView
+                android:id="@id/tv_course_teacher"
+                android:text="周峰"
+                style="@style/HomeText.Large"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

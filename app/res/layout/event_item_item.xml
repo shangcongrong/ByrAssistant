@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@color/app_bg"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_selector_bg"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="4dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@id/tv_event_name"
+            style="@style/AdapterText"/>
+
+
+        <LinearLayout
+            style="@style/AdapterCell">
+
+            <TextView
+                style="@style/AdapterText.Grey"
+                android:text="@string/label_event_time"/>
+
+            <TextView
+                android:id="@id/tv_event_time"
+                style="@style/AdapterText.Grey"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AdapterCell">
+
+            <TextView
+                style="@style/AdapterText.Grey"
+                android:text="@string/label_event_location"/>
+
+            <TextView
+                android:id="@id/tv_event_location"
+                style="@style/AdapterText.Grey"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AdapterCell">
+
+            <TextView
+                style="@style/AdapterText.Grey"
+                android:text="@string/label_event_content"/>
+
+            <TextView
+                android:id="@id/tv_event_content"
+                style="@style/AdapterText.Grey"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/AdapterCell">
+
+            <TextView
+                style="@style/AdapterText.Grey"
+                android:text="@string/label_event_department"/>
+
+            <TextView
+                android:id="@id/tv_event_department"
+                style="@style/AdapterText.Grey"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

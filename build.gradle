@@ -1,0 +1,26 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.6.+'
+    }
+}
+
+ext.compileSdkVersion = 19
+ext.buildToolsVersion = "19.0.0"
+ext.minSdkVersion = 7;
+ext.targetSdkVersion = 19;
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    tasks.withType(Compile) {
+        options.encoding = "UTF-8"
+    }
+
+    version = '0.1-SNAPSHOT'
+}
